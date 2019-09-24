@@ -1,0 +1,14 @@
+{
+    "name": "sys331535900/ffmpeg",
+    "description": "a ffmpeg project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "331535900",
+            "email": "331535900@qq.com"
+        }
+    ],
+    "licese":"MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
