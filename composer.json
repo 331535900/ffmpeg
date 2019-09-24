@@ -8,7 +8,7 @@
             "email": "331535900@qq.com"
         }
     ],
-    "licese":"MIT",
+    "license":"MIT",
     "minimum-stability": "dev",
     "require": {}
 }
