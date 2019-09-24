@@ -1,39 +1,32 @@
 # ffmpeg
 
 #### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+主要是为了视频切片并且在切片过程中截图
 
 #### 软件架构
-软件架构说明
+|-Model
+   |-DB.php      DB类
+   |-ffmpeg.php  FFMPEG类
+|-newffmpeg.sh   在aria2视频上传之后会调用此shell
+|-run.php        shell 会通过命令来调用 run.php
 
 
 #### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+1. 安装 aria2  
+ A.ubuntu  https://blog.csdn.net/qq_29117915/article/details/81986509  
+ B.centos  https://blog.csdn.net/lichenzero/article/details/80141390
+2. 安装 FFmpeg
+ https://www.linuxidc.com/Linux/2019-03/157443.htm 
+3.AriaNg 视频下载web 页面 
+ A.通过域名解析   http://php.wyscdz.com/2019/09/24/ariang-web%e6%a1%8c%e9%9d%a2%e4%b8%8b%e8%bd%bd%e5%8c%85/
+ B.直接通过谷歌浏览器 安装 http://php.wyscdz.com/2019/08/02/%e9%85%8d%e7%bd%ae-aria2-%e6%9d%a5%e4%b8%8b%e8%bd%bd-%e8%a7%86%e9%a2%91/
 
 
-#### 码云特技
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 使用说明注意事项
+1.首先php 需要开启 shell_exec函数
+2.aria2 配置项 http://php.wyscdz.com/2019/08/02/aria2-conf-%e7%9a%84%e9%85%8d%e7%bd%ae-%e4%bb%a5%e5%8f%8a%e8%af%b4%e6%98%8e/ 
+
+
+
+
