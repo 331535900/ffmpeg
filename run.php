@@ -1,9 +1,10 @@
 <?php
-require_once ('/www/wwwroot/ffmpeg/Model/Db.php');
-require_once ('/www/wwwroot/ffmpeg/Model/ffmpeg.php');
-define('STOR_DIR','/www/wwwroot/ffmpeg');//视频存储文件夹
+require_once ('/www/wwwroot/node_project/Model/Db.php');
+require_once ('/www/wwwroot/node_project/Model/ffmpeg.php');
+define('STOR_DIR','/www/wwwroot/node_project');//视频存储文件夹
 $url=$argv['1'];//视频路径
-//$url='/www/wwwroot/ffmpeg/14.mp4';//视频路径
+//$url='/www/wwwroot/node_project/14.mp4';//视频路径
+//file_put_contents('/www/wwwroot/node_project/666.txt',$url);
 $ff=new ffmpeg($url);
 $indexm3u8url=$ff->cliceAndGetImage();//切片并且获取图片
 //数据库操作

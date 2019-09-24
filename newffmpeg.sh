@@ -1,2 +1,2 @@
-php /www/wwwroot/ffmpeg/run.php $3;
+php /www/wwwroot/node_project/run.php $3;
 
