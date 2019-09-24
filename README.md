@@ -32,3 +32,8 @@
 
 
 
+ffmpeg 命令参考 https://blog.csdn.net/xuyankuanrong/article/details/77527381
+
+
+
+
