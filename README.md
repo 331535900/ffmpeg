@@ -18,7 +18,9 @@
 2. 安装 FFmpeg
  https://www.linuxidc.com/Linux/2019-03/157443.htm 
 3.AriaNg 视频下载web 页面 
- A.通过域名解析   http://php.wyscdz.com/2019/09/24/ariang-web%e6%a1%8c%e9%9d%a2%e4%b8%8b%e8%bd%bd%e5%8c%85/
+ A.通过域名解析的web页面
+    1.ariang__web.zip 
+    2.下载地址  http://php.wyscdz.com/2019/09/24/ariang-web%e6%a1%8c%e9%9d%a2%e4%b8%8b%e8%bd%bd%e5%8c%85/
  B.直接通过谷歌浏览器 安装 http://php.wyscdz.com/2019/08/02/%e9%85%8d%e7%bd%ae-aria2-%e6%9d%a5%e4%b8%8b%e8%bd%bd-%e8%a7%86%e9%a2%91/
 
 
