@@ -12,10 +12,10 @@ class Model{
   public static $sql=array();
 
 
-   private static  $db_database='zhuanma';
+   private static  $db_database='sql_108_61_86_14';
    private static  $db_host='127.0.0.1';
-   private static  $db_user='zhuanma';
-   private static  $db_password='aEyxfe8bWbn7rAtE';
+   private static  $db_user='sql_108_61_86_14';
+   private static  $db_password='6smBnDKpiBdYEePh';
    private static  $db_port='3306';
    private static  $db_prefix='';
 
