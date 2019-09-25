@@ -4,6 +4,7 @@ class ffmpeg{
     public function __construct($url=NULL){
         self::$urlset = $url;
     }
+    //切片并且截图
     public function cliceAndGetImage(){
         $data=array();
         $url=self::$urlset;
