@@ -23,7 +23,7 @@ class ffmpeg{
               
         //如果不是mp4格式
         if($last_name!='mp4'){
-            shell_exec('ffmpeg -i '.$url.' -y -c:v libx264 -strict -2 '.$url_name.'.mp4');//如果视频不为mp4格式，需先将视频转码为mp4，可使用如下命令进行转换
+            shell_exec('ffmpeg -i '.$url.' -y -c:v libx264 -strict -2 '.$url_name.'.mp4');//如果视频不为mp4格式，需先将视频转码为mp4，可使用如下命令进行转换111
             //shell_exec('ffmpeg -y -i '.$url_name.'.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb '.$dir.'/index.ts');//将mp4格式转换为ts格式
             //shell_exec('ffmpeg -i '.$dir.'/index.ts -c copy -map 0 -f segment -segment_list '.$dir.'/index.m3u8 -segment_time 20 '.$dir.'/tslist-%03d.ts');//将ts文件进行切片
             //shell_exec('ffmpeg -i '.$url_name.'.mp4 -r 5 -q:v 2 -f image2 -vframes 10 '.$dir.'/image-%d.jpeg');
